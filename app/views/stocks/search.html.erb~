@@ -1,0 +1,7 @@
+<% if @stock[:price]=="0.00" %>
+       <span>There were no results for your query</span><br/><br/>
+<% else %>
+
+The price of <%=@input %> stock is: $<%=@stock[:price] %>
+
+<% end %>
